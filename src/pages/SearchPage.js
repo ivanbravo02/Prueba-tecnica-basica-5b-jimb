@@ -1,5 +1,9 @@
 import { MoviesGrid } from "../components/moviesGrid";
+import { Search } from "../components/Search";
 
 export function SearchPage(){
-    return <MoviesGrid/>;
+    return <div> 
+        <Search/>
+        <MoviesGrid/>
+        </div>;
 }
